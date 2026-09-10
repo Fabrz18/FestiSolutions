@@ -71,3 +71,14 @@ En la raíz del proyecto ejecuta:
   ./mvnw spring-boot:run
   ```
 ---
+
+## Endpoints Principales
+
+| Método | Endpoint | Descripción |
+| :--- | :--- | :--- |
+| **POST** | `/api/authenticate` | Inicia sesión y genera token JWT para Anfitriones o Proveedores |
+| **POST** | `/api/anfitrion` | Registra un nuevo perfil de Anfitrión |
+| **POST** | `/api/jugadores` | Registra un nuevo perfil de Proveedor |
+| **GET** | `/api/especializaciones` | Lista las especializaciones disponibles |
+| **GET** | `/api/ciudades` | Lista las ciudades registradas |
+| **GET** | `/api/distritos` | Lista los distritos registrados |
