@@ -1,4 +1,4 @@
-# Celebra - Backend API
+# Celebra - Backend API REST
 
 Servicio backend para la plataforma de organización de eventos **Celebra**. Desarrollado con Java y Spring Boot, gestiona la autenticación JWT con soporte para múltiples roles (Anfitriones y Proveedores), gestión de eventos, contratos y pasarelas de pago.
 
